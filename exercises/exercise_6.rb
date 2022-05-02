@@ -10,9 +10,9 @@ puts "----------"
 
 # Your code goes here ...
 store1 = Store.find_by(id: 1)
-store1.employees.create(first_name: "John", last_name: "Smith", hourly_rate: 15)
-store1.employees.create(first_name: "Alice", last_name: "Doe", hourly_rate: 20)
+store1.employees.create(first_name: "John", last_name: "Smith", hourly_rate: 40)
+store1.employees.create(first_name: "Alice", last_name: "Doe", hourly_rate: 200)
 
 store2 = Store.find_by(id: 2)
-store2.employees.create(first_name: "Bob", last_name: "J", hourly_rate: 17)
-store2.employees.create(first_name: "Jane", last_name: "B", hourly_rate: 25)
+store2.employees.create(first_name: "Bob", last_name: "J", hourly_rate: 45)
+store2.employees.create(first_name: "Jane", last_name: "B", hourly_rate: 180)
